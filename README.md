@@ -55,10 +55,13 @@ model is Mask-RCNN
 
 Learning progress:
 The model's loss value shows an overall downward trend during the training process, which can show progress in the prediction task.
+
 Overfitting tendency:
 Although the loss value decreases, after a specific epoch, the loss value of the validation set increases, which may indicate that the model is overfitting. The performance improvements of the model on the training data do not transfer well to the validation data.
+
 Classification performance:
 The chart of classification loss shows that validation loss is relatively stable, with high volatility but no obvious upward trend. This may mean that the model generalization ability of the classification part is better.
+
 Positioning performance:
 The downward trend in localization loss indicates that the model is performing well in determining the location of objects in the image, but the fluctuation in validation loss also indicates that further optimization may be needed to improve the model's performance on unseen data.
 
